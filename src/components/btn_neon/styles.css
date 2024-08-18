@@ -1,0 +1,18 @@
+.btn_neon{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    transition: 0.8s;
+    overflow: hidden;
+    background-color: #b90ba0; 
+    border-radius: 10px;
+}
+
+.btn_neon:hover{
+    background: #b90ba0;
+    color: #f0f8ff;
+    box-shadow: 0 0 5px, 0 0 25px  #b90ba0, 0 0 50px  #b90ba0 , 0 0 200px  #b90ba0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
