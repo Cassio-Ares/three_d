@@ -21,12 +21,12 @@ export const BoxCube = (props) => {
     <mesh
       {...props}
       ref={ref}
-      scale={clicked ? 1.5 : 1}
+      // scale={clicked ? 1.5 : 1}
       onClick={(event) => click(!clicked)}
       onPointerOver={(event) => (event.stopPropagation(), hover(true))}
       onPointerOut={(event) => hover(false)}
     >
-      <boxGeometry args={[7, 7, 7]} />
+      <boxGeometry args={[8, 8, 8]} />
       <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
     </mesh>
   );

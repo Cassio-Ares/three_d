@@ -51,8 +51,8 @@ export const TwoCubes = () => {
           intensity={Math.PI}
         />
         <pointLight position={[-10, -10, -10]} decay={0} intensity={Math.PI} />
-        <BoxCube position={[-5, 0, 0]} />
-        <BoxCube position={[5, 0, 0]} />
+        <BoxCube position={[-6, 0, 0]} />
+        <BoxCube position={[6, 0, 0]} />
         <OrbitControls />
       </Canvas>
     </div>
