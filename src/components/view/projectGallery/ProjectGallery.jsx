@@ -2,6 +2,7 @@
 import "./styles.css";
 import { Btn_neon } from "@/components/btn_neon/Btn_neon";
 import { Container } from "@/components/container/Container";
+import {ComponentProjects} from '../../mock/projectBD.js'
 
 export const ProjectGallery = () => {
   return (
@@ -37,18 +38,9 @@ export const ProjectGallery = () => {
         </div>
       </div>
       <div className="contentGallery">
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
-        <Container/>
+        {ComponentProjects.map((project, id)=>(
+          <Container key={id} imgSrc={project.imgSrc} nameProject={project.nameProject} linkAcess={`./project/${project.id}`}/> 
+        ))} 
       </div>
     </div>
   );
