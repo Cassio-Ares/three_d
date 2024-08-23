@@ -1,10 +1,9 @@
-import { TwoCubes } from '@/components/project3D/cubeMouse_moviment/twoCubes/TwoCubes'
-import React from 'react'
+import { ProjectGallery } from '@/components/view/projectGallery/ProjectGallery'
 
 export default function Projects() {
   return (
     <div>
-      <TwoCubes/>
+      <ProjectGallery/>
     </div>
   )
 }

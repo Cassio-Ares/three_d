@@ -1,10 +1,13 @@
-'use client'
-import './styles.css'
+"use client";
+import Link from "next/link";
+import "./styles.css";
 
-export const Btn_neon = ({text_btn}) => {
+export const Btn_neon = ({ text_btn, link }) => {
   return (
-    <a href="#" className="btn_neon">
-      {text_btn}
-    </a>
+    <Link href={link}>
+      <div className="btn_neon">
+        {text_btn}
+      </div>
+    </Link>
   );
 };

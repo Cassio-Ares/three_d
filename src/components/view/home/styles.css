@@ -1,0 +1,40 @@
+.containerHome{
+ width: 100%;
+ max-height: 100vh ;
+}
+
+.contentHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2; 
+  top: -500px;
+  pointer-events: none; /* Ignora eventos de clique no container */
+  overflow: hidden;
+}
+
+.container_title, .container_btn {
+  pointer-events: auto; /* Permite cliques apenas em elementos específicos */
+}
+
+.title {
+  text-align: center;
+  margin: 3% 5%;
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 3%;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+}
+
+.container_btn {
+  margin: 0 auto;
+}
