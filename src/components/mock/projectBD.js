@@ -1,4 +1,4 @@
-import { TwoCubes } from "../project3D/cubeMouse_moviment/twoCubes/TwoCubes";
+import { TwoCubes } from "../view/componentsViews/twoCubes/TwoCubes";
 
 export const ComponentProjects = [
     {

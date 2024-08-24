@@ -1,7 +1,7 @@
 "use client";
 import "./styles.css";
-import { Btn_neon } from "@/components/btn_neon/Btn_neon";
-import { Container } from "@/components/container/Container";
+import { Btn_neon } from "@/components/view/componentsViews/btn_neon/Btn_neon";
+import { Container } from "@/components/view/componentsViews/container/Container";
 import {ComponentProjects} from '../../mock/projectBD.js'
 
 export const ProjectGallery = () => {

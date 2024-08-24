@@ -2,7 +2,7 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
 import { ComponentProjects } from "../../mock/projectBD.js";
-import { Btn_neon } from "@/components/btn_neon/Btn_neon.jsx";
+import { Btn_neon } from "@/components/view/componentsViews/btn_neon/Btn_neon.jsx";
 
 export const ShowProject = ({ id }) => {
   const [project, setProject] = useState([]);

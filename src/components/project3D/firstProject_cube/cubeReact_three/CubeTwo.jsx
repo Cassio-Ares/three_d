@@ -2,7 +2,7 @@
 
 import { Canvas } from "@react-three/fiber";
 import { RotatingCube } from "./component/RotationCube";
-import { Container } from "@/components/container/Container";
+import { Container } from "@/components/view/componentsViews/container/Container";
 
 /**
  *  yarn add @react-three/fiber three

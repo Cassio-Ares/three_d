@@ -1,5 +1,5 @@
 "use client";
-import { Container } from "@/components/container/Container";
+import { Container } from "@/components/view/componentsViews/container/Container";
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
 

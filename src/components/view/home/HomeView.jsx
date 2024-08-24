@@ -1,7 +1,7 @@
 "use client";
 import "./styles.css";
-import { Btn_neon } from "@/components/btn_neon/Btn_neon";
-import { TwoCubes } from "@/components/project3D/cubeMouse_moviment/twoCubes/TwoCubes";
+import { Btn_neon } from "@/components/view/componentsViews/btn_neon/Btn_neon";
+import { TwoCubes } from "@/components/view/componentsViews/twoCubes/TwoCubes";
 
 
 export const HomeView = () => {
