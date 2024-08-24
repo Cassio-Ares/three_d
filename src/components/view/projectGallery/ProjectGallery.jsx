@@ -28,12 +28,14 @@ export const ProjectGallery = () => {
         <div className="btnGalery">
           <Btn_neon
             text_btn={"Repositório three.js"}
-            link={"https://github.com/Cassio-Ares"}
+            link={"https://github.com/Cassio-Ares/learning-threejs-from-basics.git"}
+             
           />
 
           <Btn_neon
             text_btn={"Repositório react-three/fiber"}
-            link={"https://github.com/Cassio-Ares"}
+            link={"https://github.com/Cassio-Ares/three_d.git"}
+            
           />
         </div>
       </div>
