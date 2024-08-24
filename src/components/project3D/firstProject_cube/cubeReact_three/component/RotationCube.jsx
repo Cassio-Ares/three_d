@@ -22,10 +22,10 @@ export const RotatingCube = () =>  {
 
     <mesh ref={cubeRef}>
        {/* boxGeometry define a forma do cubo com dimensões 1x1x1 */}
-      <boxGeometry args={[1, 1, 1]} />
+      <boxGeometry args={[3, 3, 3]} />
 
       {/* meshBasicMaterial define a aparência do cubo, aqui é verde */}
-      <meshBasicMaterial color="green" />
+       <meshBasicMaterial /*color="green"*/ /> 
     </mesh>
   );
 }

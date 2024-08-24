@@ -1,5 +1,5 @@
 "use client";
-import { Container } from "@/components/view/componentsViews/container/Container";
+
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
 
@@ -33,7 +33,7 @@ export const Cube = () => {
 
       // Cria a geometria e o material da caixa, e a adiciona à cena
       const geometry = new THREE.BoxGeometry(100, 100, 100);
-      const material = new THREE.MeshBasicMaterial({ color: '#ffffff'});
+      const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
       mesh = new THREE.Mesh(geometry, material);
       scene.add(mesh);
     }
@@ -65,9 +65,9 @@ export const Cube = () => {
   }, []);
 
   return (
-    <Container>
+    <>
       {/* Essa div será usada para renderizar o conteúdo do Three.js */}
-      <div ref={mountRef} style={{ width: "100%", height: "100%" }} />
-    </Container>
+      <div ref={mountRef} style={{ width: "800px", height: "600px" }} />
+    </>
   );
 };

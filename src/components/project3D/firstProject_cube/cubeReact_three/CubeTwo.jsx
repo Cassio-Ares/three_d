@@ -2,7 +2,7 @@
 
 import { Canvas } from "@react-three/fiber";
 import { RotatingCube } from "./component/RotationCube";
-import { Container } from "@/components/view/componentsViews/container/Container";
+
 
 /**
  *  yarn add @react-three/fiber three
@@ -10,15 +10,18 @@ import { Container } from "@/components/view/componentsViews/container/Container
 
 export const CubeTwo = () => {
   return (
-    <Container>
+    <>
        {/* Canvas é um componente de container principal para a cena */}
-      <Canvas>
+      <Canvas
+        camera={{position: [0,0,10], fov: 50}}
+        style={{width: '100vw', height:'100vh'}}
+      >
         {/* RotatingCube é o componente que cria e anima o cubo */}
         <RotatingCube />
 
         {/* perspectiveCamera define a câmera com uma perspectiva 3D */}
-        <perspectiveCamera position={[0, 0, 5]} />
+        <perspectiveCamera position={[1, 1, 5]} />
       </Canvas>
-    </Container>
+    </>
   );
 };
