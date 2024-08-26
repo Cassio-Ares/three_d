@@ -1,5 +1,6 @@
 "use client";
 
+import { OrbitControls } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 
@@ -15,6 +16,7 @@ export const Geometry = ({ geometryForm }) => {
   return (
     <mesh ref={geometryRef}>
       {geometryForm}
+      <OrbitControls/>
     </mesh>
   );
 };
