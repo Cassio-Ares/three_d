@@ -1,0 +1,13 @@
+.form{
+    background: #555353; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 30%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    z-index: 5;
+}

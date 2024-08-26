@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 
 export const RotatingCube = () =>  {
@@ -25,7 +25,7 @@ export const RotatingCube = () =>  {
       <boxGeometry args={[3, 3, 3]} />
 
       {/* meshBasicMaterial define a aparência do cubo, aqui é verde */}
-       <meshBasicMaterial /*color="green"*/ /> 
+       <meshBasicMaterial color="green" /> 
     </mesh>
   );
 }
