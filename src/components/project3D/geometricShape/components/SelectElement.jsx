@@ -1,5 +1,10 @@
 import "./styles.css";
 
+/**
+ * Componente de um input type radio 
+ * @param {label, name, value, args, checked, onchange} param0 
+ * @returns 
+ */
 export const SelectElement = ({ label, name, value, args, checked, onChange }) => {
   return (
     <label htmlFor={label} className="contentCheckBox">
