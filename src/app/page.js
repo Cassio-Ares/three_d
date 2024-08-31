@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main>
       <Object/>
-      {/* <HomeView/>  */}
+     
     </main>
   );
 }
-       
+        // {/* <HomeView/>  */}

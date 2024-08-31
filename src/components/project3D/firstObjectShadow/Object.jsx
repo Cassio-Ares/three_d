@@ -27,3 +27,14 @@ export const Object = () => {
     </Canvas>
   );
 };
+
+/**
+ * OrbitControls : permite o controle do objeto
+ * 
+ *   * enableDamping: amortece (suaviza os movimentos)
+ * 
+ *   * dampingFactor: controla a intensidade do amortecimento 
+ * 
+ *   * minDistance={0.8} e maxDistance={3}: permite controlar a distancia min e max da câmera em relação ao objeto 
+ *                   efeito similar ao far e near na camera camera={{ position: [0, 0, 0], fov: 50, near: 1, far: 1000 }}
+ */

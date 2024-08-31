@@ -75,4 +75,5 @@ export const Model = () => {
  *           * ref={} atribui a referência modelRef ao objeto para que ele possa ser manipulado diretamente
  *
  *           * dispose={}  define que o objeto não deve ser descartado automaticamente 
+ * 
  */

@@ -15,4 +15,9 @@ export const Plane = () => {
   );
 };
 
-
+/**
+ * planeGeometry: define a geometria de um plano que é usado como base(chão) para o elemento
+ *              args={[largura, altura]}
+ * 
+ * shadowMaterial: estiliza a sombra neste caso a opacidade da sombra = 0.2 de opacidade
+ */
