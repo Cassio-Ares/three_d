@@ -1,6 +1,4 @@
 
-
-
 import styles from "./page.module.css";
 import { HomeView } from "@/components/view/home/HomeView";
 
