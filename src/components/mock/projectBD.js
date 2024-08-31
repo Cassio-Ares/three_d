@@ -23,7 +23,7 @@ export const ComponentProjects = [
   {
     id: "3",
     imgSrc: "./geometry.gif",
-    nameProject: "Geometric Shape",
+    nameProject: "GeometricShape",
     component: <GeometryContainer/>,
     text: "Projeto para mostrar algumas das forma geometricas basicas que podemos fazer com @react-three; clique nos nomes e veja as formas; para mais informação olhe o mock/geometryForms.js no repositorio.",
   },

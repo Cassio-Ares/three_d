@@ -6,6 +6,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three-stdlib";
 
 
+
 export const Model = () => {
   /**
    * useLoader: hook do @react-three que carrega recurso externos 3D.
@@ -13,7 +14,7 @@ export const Model = () => {
    * GLTFLoader: é um utilitário da biblioteca three-stdlib que permite carregar modelos no formato GLTF/GLB
    *             formato eficiente para transmição 3D que carrega consigo: animação, textura, ...
    */
-  const gltf = useLoader(GLTFLoader, "./models/car_engine.glb");
+  const gltf = useLoader(GLTFLoader, "/models/car_engine.glb");
 
   /**
    *useThree() = hook do @react-three/fiber que permite acessar o contexto da cena 3D como [câmere, scene, controls, render, ...]

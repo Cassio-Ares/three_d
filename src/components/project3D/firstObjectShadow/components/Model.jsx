@@ -11,7 +11,7 @@ export const Model = () => {
    *
    * GLTFLoader: loader usada para carregar arquivos glb, gltf qua são formatos amplamente usados
    */
-  const gltf = useLoader(GLTFLoader, "./models/office_chair.glb");
+  const gltf = useLoader(GLTFLoader, "/models/office_chair.glb");
 
   /**
    * useRef = hook do react que cria uma referência mutável,
