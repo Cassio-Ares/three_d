@@ -1,3 +1,5 @@
+import { Object } from "../project3D/firstObject/Object";
+import { ObjectShadow } from "../project3D/firstObjectShadow/ObjectShadow";
 import { CubeTwo } from "../project3D/firstProject_cube/cubeReact_three/CubeTwo";
 import { GeometryContainer } from "../project3D/geometricShape/GeometryContainer";
 import { CubeMove } from "../project3D/secondProject_cubeMove/CubeMove";
@@ -24,5 +26,19 @@ export const ComponentProjects = [
     nameProject: "Geometric Shape",
     component: <GeometryContainer/>,
     text: "Projeto para mostrar algumas das forma geometricas basicas que podemos fazer com @react-three; clique nos nomes e veja as formas; para mais informação olhe o mock/geometryForms.js no repositorio.",
+  },
+  {
+    id: "4",
+    imgSrc: "./firstObject.gif",
+    nameProject: "FirstObject",
+    component: <Object/>,
+    text: "Colocação do primeiro objeto 3D na tela e usando recursos como GLTFLoader(para carregar o objeto) e primitive para colocar o objeta na tela.",
+  },
+  {
+    id: "5",
+    imgSrc: "./shadow.gif",
+    nameProject: "ShadowOnObject",
+    component: <ObjectShadow/>,
+    text: "Projeto para aprender e praticar colocação e organização de iluminação e de sombra.",
   },
 ];

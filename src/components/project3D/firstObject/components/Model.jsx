@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three-stdlib";
 
+
 export const Model = () => {
   /**
    * useLoader: hook do @react-three que carrega recurso externos 3D.

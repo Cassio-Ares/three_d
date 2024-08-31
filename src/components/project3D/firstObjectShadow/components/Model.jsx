@@ -91,13 +91,3 @@ export const Model = () => {
     />
   );
 };
-/**
- * primitive : componente especial do @react-three que permite renderizar diretamente objetos
- *             dentro de uma cena,
- *           PROPS:
- *           * object ={} define a scene 3D carregada
- *
- *           * ref={} atribui a referência modelRef ao objeto para que ele possa ser manipulado diretamente
- *
- *           * dispose={}  define que o objeto não deve ser descartado automaticamente 
- */
