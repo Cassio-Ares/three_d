@@ -1,6 +1,7 @@
 import { Object } from "../project3D/firstObject/Object";
 import { ObjectShadow } from "../project3D/firstObjectShadow/ObjectShadow";
 import { CubeTwo } from "../project3D/firstProject_cube/cubeReact_three/CubeTwo";
+import { FloatingMotorbike } from "../project3D/floatingMotorbike/FloatingMotorbike";
 import { GeometryContainer } from "../project3D/geometricShape/GeometryContainer";
 import { CubeMove } from "../project3D/secondProject_cubeMove/CubeMove";
 
@@ -40,5 +41,12 @@ export const ComponentProjects = [
     nameProject: "ShadowOnObject",
     component: <ObjectShadow/>,
     text: "Projeto para aprender e praticar colocação e organização de iluminação e de sombra.",
+  },
+  {
+    id: "6",
+    imgSrc: "./MotoFlu.gif",
+    nameProject: "floatingObject",
+    component:  <FloatingMotorbike/>,
+    text: "Projeto para colocar objeto com movimento como se fosse um objeto em gravidade..",
   },
 ];

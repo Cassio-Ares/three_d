@@ -12,7 +12,7 @@ export const Scene = () => {
   const { scene } = useThree(); // Acessa o contexto da cena
 
   // Carrega o HDR usando RGBELoader
-  const hdrTexture = useLoader(RGBELoader, "./utils/photo_studio_01_2k.hdr");
+  const hdrTexture = useLoader(RGBELoader, "/utils/photo_studio_01_2k.hdr");
   hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
   scene.environment = hdrTexture;
 

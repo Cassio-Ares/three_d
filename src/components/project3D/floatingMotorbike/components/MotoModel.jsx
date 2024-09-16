@@ -6,7 +6,7 @@ import { useRef, useState } from "react";
 import * as THREE from 'three'
 
 export const MotoModel = () => {
-  const { scene: model } = useGLTF("./models/sci-fi_flying_scooter.glb");
+  const { scene: model } = useGLTF("/models/sci-fi_flying_scooter.glb");
  
   //ref do modelo para animação
   const modelRef = useRef(model);
