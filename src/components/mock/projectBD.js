@@ -1,3 +1,4 @@
+import { ChangingColors } from "../project3D/changingColors/ChangingColors";
 import { Object } from "../project3D/firstObject/Object";
 import { ObjectShadow } from "../project3D/firstObjectShadow/ObjectShadow";
 import { CubeTwo } from "../project3D/firstProject_cube/cubeReact_three/CubeTwo";
@@ -48,5 +49,12 @@ export const ComponentProjects = [
     nameProject: "floatingObject",
     component:  <FloatingMotorbike/>,
     text: "Projeto para colocar objeto com movimento como se fosse um objeto em gravidade..",
+  },
+  {
+    id: "7",
+    imgSrc: "./choiceColor.gif",
+    nameProject: "ChoiceColor",
+    component:  <ChangingColors/>,
+    text: "Projeto para poder alterar a cor de um elemento geografico 3D usando hook do react como createContext, useContext para carregar as props de color.",
   },
 ];

@@ -9,7 +9,7 @@ export const ColorPicker = () => {
   const {setColor} = useColor()
 
   return (
-    <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', padding: '20px'}}>
+    <div style={{display: 'flex', flexDirection:'column', justifyContent: 'center', padding: '20px'}}>
      {
         colors.map((color)=>(
             <div
