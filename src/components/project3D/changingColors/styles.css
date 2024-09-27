@@ -1,0 +1,16 @@
+.container_Changing{
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+}
+
+.container3d{
+  flex: 1;
+  background: #d3d3d3;
+}
+
+.container_choice{
+   position: absolute;
+   bottom: 2%;
+   right: 35%;
+}
